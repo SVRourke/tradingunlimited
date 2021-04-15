@@ -8,14 +8,7 @@ import {
 
 function App() {
   return (
-    <div>
-      <h1>APP</h1>
-      <Link to='/'>home</Link>
-      <Link to='/partner'>Become a distributor</Link>
-      <Link to='/contact'>Contact</Link>
-
     <Switch>
-
       <Route exact path='/'>
         <Home />
       </Route>
@@ -29,8 +22,6 @@ function App() {
       </Route>
 
     </Switch>
-
-    </div>
   );
 }
 
