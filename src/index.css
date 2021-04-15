@@ -6,11 +6,16 @@
 body {
   width: 100vw;
   height: 100vh;
-  overflow-y: scroll;
   overflow-x: hidden;
 }
-
+.main {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .layout-block {
   width: 100%;
-  padding: 0 15vw;
+  padding: 5rem 15vw;
+  border: solid black 1px;
 }
