@@ -1,10 +1,10 @@
 import React from 'react'
+import { Header } from '../blocks'
 
 export default function Contact() {
     return (
         <div>
-            <p>CONTACT</p>
-            
+            <Header title={'Contact'} />
         </div>
     )
 }
