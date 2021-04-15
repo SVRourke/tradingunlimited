@@ -3,7 +3,8 @@ import { Switch, Route, Link } from 'react-router-dom'
 import {
   Home, 
   Contact, 
-  Distributor 
+  Distributor,
+  About 
 } from './pages'
 
 function App() {
@@ -15,6 +16,10 @@ function App() {
 
       <Route path='/partner' >
         <Distributor />
+      </Route>
+
+      <Route path='/about' >
+        <About />
       </Route>
 
       <Route path='/contact' >
