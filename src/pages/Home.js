@@ -1,15 +1,31 @@
 import React from 'react'
-import { Header } from '../blocks'
+import { 
+  Header,
+  Footer, 
+  StatsBlock, 
+  AboutBlock, 
+  CategoriesBlock,
+  PartnerCtaBlock,
+  OnPageContactBlock
+ } from '../blocks'
+ 
 
 export default function Home() {
     return (
-      <>
+      <div className='main'>
         <Header title={'Home'} />
 
-        <div className='layout-block'>
-          <div style={{height: '50vh'}}>
-          </div>
-        </div>
-      </>
+        <StatsBlock />
+
+        <AboutBlock />
+
+        <CategoriesBlock />
+
+        <PartnerCtaBlock />
+
+        <OnPageContactBlock />
+
+        <Footer />
+      </div>
     )
 }
