@@ -7,26 +7,32 @@ import {
   About 
 } from './pages'
 
+import { Footer } from './blocks'
+
 function App() {
   return (
-    <Switch>
-      <Route exact path='/'>
-        <Home />
-      </Route>
+    <>
+      <Switch>
+        <Route exact path='/'>
+          <Home />
+        </Route>
 
-      <Route path='/partner' >
-        <Distributor />
-      </Route>
+        <Route path='/partner' >
+          <Distributor />
+        </Route>
 
-      <Route path='/about' >
-        <About />
-      </Route>
+        <Route path='/about' >
+          <About />
+        </Route>
 
-      <Route path='/contact' >
-        <Contact />
-      </Route>
+        <Route path='/contact' >
+          <Contact />
+        </Route>
 
-    </Switch>
+      </Switch>
+      <Footer />
+    </>
+
   );
 }
 
