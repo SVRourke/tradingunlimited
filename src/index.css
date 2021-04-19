@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap');
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+  font-size: 24px;
 }
 body {
   width: 100vw;
@@ -18,4 +21,30 @@ body {
   width: 100%;
   padding: 5rem 15vw;
   border: solid black 1px;
+}
+.headerVid {
+  float: right;
+  width: 70%;
+  height: 100vh;
+  background: 'black';
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(	0, 35, 68, 0.5);
+}
+
+/* NON-SPECIFIC STYLES USED FOR LAYOUT */
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
