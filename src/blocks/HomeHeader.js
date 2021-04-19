@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from '../components/Nav'
-
+import secondLogo from '../assets/trading-words.png'
+import topLogo from '../assets/top-logo.png'
 const headerStyles = {
     width: '100%',
     height: '100vh',
@@ -15,23 +16,34 @@ export default function Header({title}) {
             </video>
 
             <div 
-            className="overlay column" 
-            style={{
-                color: 'whitesmoke',
-                padding: "2rem 5rem",
+                className="overlay column" 
+                style={{
+                    color: 'whitesmoke',
+                    padding: "1rem 5rem 2rem",
+                }}
+            >
+                <div className='row' style={{
+                    alignItems: "center"
                 }}>
-                <div className='row'>
-                    <h1>Logo</h1>
+                    <img 
+                        src={topLogo} 
+                        style={{
+                            width: '150px',
+                        }} 
+                    />
                     <Nav />
                 </div>
 
-                <div className='header-content'>
-                    <h1 >SECOND LOGO</h1>
-                    <button>button 1</button>
-                    <button>button 2</button>
+                <div className='header-content column' style={{ width: "fit-content", padding: "0 5rem" }} >
+                    <img src={secondLogo} style={{ width: "450px" }} />
+                    
+                    <div className="row" style={{margin: ".5rem 0", justifyContent: "space-evenly"}}>
+                        <button className='header-button'>Learn More</button>
+                        <button className='header-button'>Partner With Us</button>
+                    </div>
                 </div>
 
-                <p>Call 954-XXX-XXXX</p>
+                <p style={{textAlign: 'right'}}>Call 954-XXX-XXXX</p>
 
             </div>
 
