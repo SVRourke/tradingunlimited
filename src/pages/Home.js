@@ -1,6 +1,6 @@
 import React from 'react'
 import { 
-  Header,
+  HomeHeader,
   Footer, 
   StatsBlock, 
   AboutBlock, 
@@ -13,7 +13,7 @@ import {
 export default function Home() {
     return (
       <div className='main'>
-        <Header title={'Home'} />
+        <HomeHeader title={'Home'} />
 
         <StatsBlock />
 
