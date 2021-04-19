@@ -20,7 +20,7 @@ body {
 .layout-block {
   width: 100%;
   padding: 5rem 15vw;
-  border: solid black 1px;
+  /* border: solid black 1px; */
 }
 .headerVid {
   float: right;
@@ -36,6 +36,25 @@ body {
   right: 0;
   background-color: rgba(	0, 35, 68, 0.5);
 }
+.stat-block {
+  border: solid red 1px;
+  height: 200px;
+  width: 100%;
+}
+
+nav a {
+  font-size: .8rem;
+  font-weight: 300;
+  text-decoration: none;
+  margin-left: 1rem;
+  color: #cacaca;
+}
+
+nav a:hover {
+  color: whitesmoke;
+  text-decoration: underline;
+  margin-left: 1rem;
+}
 
 /* NON-SPECIFIC STYLES USED FOR LAYOUT */
 .column {
@@ -47,4 +66,20 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+/* Specific styles for components */
+.header-button {
+  background: none;
+  border: solid whitesmoke 1px;
+  border-radius: .3rem;
+  color: whitesmoke;
+  width: 45%;
+  font-size: .8rem;
+  padding: .5rem 0;
+  transition:.5s;
+}
+.header-button:hover {
+  background-color: whitesmoke;
+  color: black;
 }
