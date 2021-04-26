@@ -1,0 +1,28 @@
+.stat-block {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: fit-content;
+}
+.stat-block svg {
+    color: #0044C2;
+    width: 100%;
+    height: 100%;
+}
+.stat-sub-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding-left: 1rem;
+
+}
+.stat-sub-block h3 {
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.stat-sub-block p {
+    font-weight: 200;
+    font-size: .8rem;
+}

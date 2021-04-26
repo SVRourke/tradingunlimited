@@ -1,0 +1,30 @@
+
+  body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* NON-SPECIFIC STYLES USED FOR LAYOUT */
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .main {
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .layout-block {
+    width: 100%;
+    padding: 5rem 15vw;
+    /* border: solid black 1px; */
+  }
