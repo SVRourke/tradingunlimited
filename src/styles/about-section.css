@@ -1,0 +1,43 @@
+.about-layout-block {
+    background-image:
+    linear-gradient(
+      to right, 
+      #fafafa,
+      #fafafa 65%,
+      #3f5972 65%,
+      #3f5972
+    );
+}
+
+.about-content {
+    margin: 1rem 0 1rem 0;
+}
+
+.left-text {
+    width: 55%;
+}
+
+.left-text h2 {
+    font-size: 2.5rem;
+}
+.left-text h2 span {
+    font-size: inherit;
+    color: #0044C2;
+    text-decoration: underline;
+}
+.left-text p {
+    margin-top: 1rem;
+    font-size: .8rem;
+}
+.right-image {
+    width: 45vw;
+    height: 100vh;
+    background-image: url("https://ik.imagekit.io/ultimatec/overhead_HKZJqmg9n.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 45%;
+    border-radius: 10px;
+}
+.right-image img {
+    max-width: 100%;
+}
