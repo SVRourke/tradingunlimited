@@ -51,7 +51,8 @@ export default function AboutBlock() {
             </div>
 
             <div className="right-image" >
-            
+              <div>
+              </div>
             </div>
           </div>
         </div>
