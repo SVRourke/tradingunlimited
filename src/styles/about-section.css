@@ -11,14 +11,15 @@
 
 .about-content {
     margin: 1rem 0 1rem 0;
+    justify-content: space-evenly;
 }
 
 .left-text {
-    width: 55%;
+    width: 45%;
 }
 
 .left-text h2 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 .left-text h2 span {
     font-size: inherit;
@@ -30,14 +31,22 @@
     font-size: .8rem;
 }
 .right-image {
-    width: 45vw;
-    height: 100vh;
-    background-image: url("https://ik.imagekit.io/ultimatec/overhead_HKZJqmg9n.jpg");
+    width: 40%;
+    height: --webkit-fill-parent;
+    justify-content: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.right-image div {
+    width: 100%;
+    height: 65vh;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
+    url("https://ik.imagekit.io/ultimatec/overhead_HKZJqmg9n.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 45%;
     border-radius: 10px;
+    z-index: 0;
 }
-.right-image img {
-    max-width: 100%;
-}
+
