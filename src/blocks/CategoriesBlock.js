@@ -12,29 +12,29 @@ export default function CategoriesBlock() {
 
             <div className="categories_cards">
               <div className='row'>
-                <div className='category_card'>
+                <div id="video-card" className='category_card' >
                   <h3>Video</h3>
                 </div>
 
-                <div className='category_card'>
+                <div id="audio-card" className='category_card'>
                   <h3>Audio</h3>
                 </div>
 
-                <div className='category_card'>
+                <div id="photography-card" className='category_card'>
                   <h3>Cameras & Lenses</h3>
                 </div>
               </div>
 
               <div className='row'>
-                <div className='category_card'>
+                <div id="gadgets-card" className='category_card'>
                   <h3>Personal Electronics</h3>
                 </div>
 
-                <div className='category_card'>
+                <div id="drones-card" className='category_card'>
                   <h3>Drones</h3>                  
                 </div>
 
-                <div className='category_card'>
+                <div id="computers-card" className='category_card'>
                   <h3>Computers & IT Equipment</h3>
                 </div>
               </div>
