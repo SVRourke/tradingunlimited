@@ -1,12 +1,12 @@
 .stat-block {
     display: flex;
     flex-direction: row;
-    height: 200px;
-    width: fit-content;
+    height: 150px;
+    width: 250px;
 }
 .stat-block svg {
     color: #0044C2;
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
 }
 .stat-sub-block {
