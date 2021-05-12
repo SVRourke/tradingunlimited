@@ -1,13 +1,14 @@
 import React from 'react'
 import { 
   HomeHeader,
-  Footer, 
   StatsBlock, 
-  AboutBlock, 
+  About, 
   CategoriesBlock,
-  PartnerCtaBlock,
-  OnPageContactBlock
+  CtaBlock,
+  OnPageContact
  } from '../blocks'
+
+
  
 
 export default function Home() {
@@ -17,13 +18,13 @@ export default function Home() {
 
         <StatsBlock />
 
-        <AboutBlock />
+        <About />
 
         <CategoriesBlock />
 
-        <PartnerCtaBlock />
+        <CtaBlock />
 
-        <OnPageContactBlock />
+        <OnPageContact />
 
       </div>
     )
