@@ -2,18 +2,17 @@ import Header from './Header'
 import HomeHeader from './HomeHeader'
 import Footer from './Footer'
 import StatsBlock from './StatsBlock'
-import AboutBlock from './AboutBlock'
 import CategoriesBlock from './productCategories/CategoriesBlock'
-import PartnerCtaBlock from './PartnerCtaBlock'
-import OnPageContactBlock from './OnPageContactBlock'
-
+import OnPageContact from './OnPageContact/OnPageContact'
+import CtaBlock from './CtaBlock/CtaBlock'
+import About from './About/About'
 export { 
     HomeHeader,
     Header,
     Footer,
     StatsBlock, 
-    AboutBlock, 
+    About, 
     CategoriesBlock,
-    PartnerCtaBlock,
-    OnPageContactBlock
+    CtaBlock,
+    OnPageContact
  }
