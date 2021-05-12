@@ -5,3 +5,6 @@
 /* @import './stats-block.css'; */
 
 
+html {
+    scroll-behavior: smooth;
+}
