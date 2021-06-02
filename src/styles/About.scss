@@ -1,9 +1,18 @@
 @import 'variables';
 
 #about {
+    padding: 10rem;
     span {
         font-size: inherit;
         color: $light-medium-blue;
     }
+
+    justify-content: center;
+    .column {
+        p {
+            font-size: 1.5rem;
+            max-width:43ch;
+        }
+    } 
 
 }
