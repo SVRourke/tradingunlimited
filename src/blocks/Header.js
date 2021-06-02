@@ -31,7 +31,7 @@ export default function Header() {
             </section>
 
 
-            <section>
+            <section className={'header_phone'}>
                 <p>call 1+ 305-777-XXXX</p>
             </section>
         </header>
