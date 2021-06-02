@@ -11,7 +11,9 @@ export default function Brands() {
                 diam. Curabitur consequat justo in feugiat porttitor. Pellentesque habitant 
                 morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce 
                 gravida feugiat efficitur. Nulla consequat tincidunt nisi sed viverra.
-            </p>            
+            </p>
+
+            <div className={'mockup-slider'} />            
         </section>
     )
 }
