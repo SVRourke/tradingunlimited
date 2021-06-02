@@ -3,7 +3,7 @@ import React from 'react'
 export default function Brands() {
     return (
         <div className={'block'}>
-            Brands            
+            <h2 className={'big-title'}>Our Partners</h2>            
         </div>
     )
 }
