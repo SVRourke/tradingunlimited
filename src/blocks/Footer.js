@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <div classname={'block'}>
+        <div className={'block'}>
             Footer
         </div>
     )
