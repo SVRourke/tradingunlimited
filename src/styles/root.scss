@@ -23,8 +23,12 @@ body {
     flex-direction: column;
 }
 
-.fullscreen_block {
+.block {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+
+    &_full-screen {
+        height: 100vh;
+    }
 }
 
