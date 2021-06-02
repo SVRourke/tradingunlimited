@@ -3,7 +3,8 @@ import React from 'react'
 import {
   Header,
   About,
-  Footer
+  Footer,
+  Contact
 } from './blocks'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <>
       <Header />
       <About />
+      <Contact />
       <Footer />
     </>
 
