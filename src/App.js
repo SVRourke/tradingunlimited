@@ -4,7 +4,8 @@ import {
   Header,
   About,
   Brands,
-  Contact
+  Logistics,
+  Contact,
   Footer,
 } from './blocks'
 
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <About />
       <Brands />
+      <Logistics />
       <Contact />
       <Footer />
     </>
