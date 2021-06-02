@@ -1,7 +1,8 @@
 import React from 'react'
-
 import Logo from '../assets/top-logo.png'
 import Words from '../assets/trading-words.png'
+import '../styles/Header.scss'
+
 export default function Header() {
     return (
         <div className={'block_full-screen'}>
