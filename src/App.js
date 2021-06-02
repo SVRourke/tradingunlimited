@@ -4,9 +4,9 @@ import {
   Header,
   About,
   Brands,
-  ProductCategories
+  ProductCategories,
   Logistics,
-  PartnershipCta
+  PartnershipCta,
   Contact,
   Footer,
 } from './blocks'
