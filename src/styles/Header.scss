@@ -5,17 +5,19 @@ header {
     background-color: $light-blue;
     justify-content: space-between;
     padding: 3rem;
-
+    
     .navbar {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-
+        
         nav {
             width: fit-content;
 
             a {
+                color: $white;
+                font-weight: 400;
                 font-size: 1.7rem;
                 text-decoration: none;
                 
@@ -31,13 +33,44 @@ header {
     }
 
     .header_content {
+        padding-left: 8rem;
+
         img {
             width: 40rem;
         }
 
         div {
-            background-color:black;
+            width: fit-content;
+            padding-top: 2rem;
 
+
+            button {
+                color: $white;
+                font-size: 1.5rem;
+                background: none;
+                border: solid $white 1px;
+                width: 19rem;
+                padding: 1rem 2rem;
+                border-radius: 1rem;
+
+                &:first-of-type {
+                    margin-right: 1rem;
+                }
+
+            }
+
+        }
+
+    }
+    .header_phone {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        
+        p {
+            color: $white;
+            font-weight: 400;
+            font-size: 1.7rem;
         }
 
     }
