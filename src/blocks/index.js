@@ -2,6 +2,7 @@ import Header from './Header'
 import About from './About'
 import Brands from './Brands'
 import Logistics from './Logistics'
+import PartnershipCta from './PartnershipCta'
 import Contact from './Contact'
 import Footer from './Footer'
 export {
@@ -9,6 +10,7 @@ export {
     About,
     Brands,
     Logistics,
+    PartnershipCta,
     Contact,
     Footer
 }
