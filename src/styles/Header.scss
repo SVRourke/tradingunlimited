@@ -2,10 +2,10 @@
 
 
 header {
-    background-color: $light-blue;
+    background-color: black;
     justify-content: space-between;
     padding: 3rem;
-    
+    overflow: hidden;
     .navbar {
         display: flex;
         flex-direction: row;
@@ -35,8 +35,14 @@ header {
     .header_content {
         padding-left: 8rem;
 
+        display: flex;
+
         img {
             width: 40rem;
+        }
+
+        .column {
+            justify-content: center;
         }
 
         div {
@@ -62,6 +68,7 @@ header {
         }
 
     }
+        
     .header_phone {
         display: flex;
         flex-direction: row;
