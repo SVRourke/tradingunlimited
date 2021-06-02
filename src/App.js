@@ -4,6 +4,7 @@ import {
   Header,
   About,
   Brands,
+  ProductCategories
   Logistics,
   PartnershipCta
   Contact,
@@ -16,6 +17,7 @@ function App() {
       <Header />
       <About />
       <Brands />
+      <ProductCategories />
       <Logistics />
       <PartnershipCta />
       <Contact />
