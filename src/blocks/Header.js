@@ -5,8 +5,8 @@ import '../styles/Header.scss'
 
 export default function Header() {
     return (
-        <div className={'block_full-screen'}>
-            <section>
+        <header className={'block_full-screen'}>
+            <section className={'navbar'}>
                 <img src={Logo} />
                 <nav>
                     <a href="#">home</a>
@@ -28,6 +28,6 @@ export default function Header() {
             <section>
                 <p>call 1+ 305-777-XXXX</p>
             </section>
-        </div>
+        </header>
     )
 }
