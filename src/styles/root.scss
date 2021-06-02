@@ -1,2 +1,12 @@
-@import url('./resets.scss');
-@import url('./variables.scss');
+@import './resets.scss';
+@import './variables.scss';
+
+body {
+    background-color: $white;
+}
+
+.fullscreen_block {
+    width: 100vw;
+    height: 100vh;
+}
+
