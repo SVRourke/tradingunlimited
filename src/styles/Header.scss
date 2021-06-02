@@ -1,0 +1,16 @@
+@import 'variables';
+
+
+header {
+    background-color: $light-blue;
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+        img {
+            height: 5rem;
+        }
+    }
+
+}
