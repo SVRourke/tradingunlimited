@@ -21,13 +21,23 @@ export default function Header() {
 
 
             <section className={'header_content'}>
-                <img src={Words} />
-                
-                <div>
-                    <button>Learn More</button>
-                    <button>Partner With Us</button>
+                <div className={'column'}>
+                    <img src={Words} />
+                    
+                    <div>
+                        <button>Learn More</button>
+                        <button>Partner With Us</button>
+
+                    </div>
 
                 </div>
+
+                <div className={'column'}>
+                    <video muted autoPlay loop className="headerVid" style={{background: 'black'}} > 
+                        <source src='https://ik.imagekit.io/ultimatec/video_b8MieOF-0.mp4' type="video/mp4" />
+                    </video>
+                </div>
+
             </section>
 
 
