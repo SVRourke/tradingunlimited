@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function PartnershipCta() {
     return (
-        <section className={'block'}>
+        <section id='partnerCta' className={'block'}>
             <h2 className={'big-title'}>Become a Partner</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut placerat 
