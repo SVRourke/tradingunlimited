@@ -60,9 +60,10 @@
     }
 
     .badge-section {
-        margin-top: 2rem;
+        width: fit-content;
+        margin-top: 4rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 1rem;
+        grid-gap: 4rem;
     }
 }
