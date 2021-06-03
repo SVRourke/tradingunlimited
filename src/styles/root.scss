@@ -48,3 +48,18 @@ body {
     font-size: 3.25rem;
     font-weight: 700;
 }
+
+.badge {
+    @extend .row;
+    p {
+        color: $grey-text;
+        font-weight: 400;
+        font-size: .9rem;
+    }
+
+    svg {
+        font-size: 2rem;
+        fill: $medium-blue;
+        margin-right: 1rem;
+    }
+}
