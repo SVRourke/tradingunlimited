@@ -8,6 +8,7 @@ import {
     BsShieldLock
  } from "react-icons/bs";
 
+ import { slides } from '../data/categoriesSlides'
 
 export default function ProductCategories() {
     const [slide, setSlide ] = useState(slides)
