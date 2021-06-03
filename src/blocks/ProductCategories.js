@@ -29,7 +29,7 @@ export default function ProductCategories() {
         <section id='categories' className={'block_full-screen'}>
             <div className={'row'}>
                 <div className={'column'} >
-                    
+                    <img src={slide.img} />
                 </div>
 
                 <div className={'column'} >
