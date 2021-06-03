@@ -1,6 +1,46 @@
 @import 'variables';
 
 #partnerCta {
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
     background-color: $dark-blue;
+
+    * {
+        color: $white;
+        padding-bottom: 1rem;
+    }
+    
+    .big-title {
+        font-size: 5rem;
+    }
+
+    p {
+        max-width: 70ch;
+        text-align: center;
+        font-size: 1.75rem;
+        font-weight: 500;
+    }
+    .row {
+        margin-top: 1rem;
+        button {
+            font-size: 1.5rem;
+            font-weight: 600;
+            background: none;
+            border: solid $white 2px;
+            padding: 1rem 2rem;
+            border-radius: .5rem;
+
+            &:hover {
+                background-color: $white;
+                color: black;
+                transition: ease-in-out 300ms;
+            }
+
+            &:first-of-type {
+                margin-right: 2rem;
+            }
+        }
+    }
 
 }
