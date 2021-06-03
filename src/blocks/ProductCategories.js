@@ -10,7 +10,7 @@ import {
 
 import { slides } from '../data/categoriesSlides'
 
-import '../styles/ProductCategories'
+import '../styles/ProductCategories.scss'
 
 export default function ProductCategories() {
     const [slideIdx, setSlide ] = useState(0)
