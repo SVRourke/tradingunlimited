@@ -17,6 +17,8 @@ export default function ProductCategories() {
     
     let slide = slides[slideIdx]
 
+    const headings = slides.map(s => <button className={'control-button'}>{s.tab}</button>)
+
     const nextSlide = () => {
         slideIdx < slides.length - 1 ? setSlide(slideIdx + 1) : setSlide(0)
     }
@@ -40,8 +42,9 @@ export default function ProductCategories() {
             </div>
 
             <div className={'row'}>
-                <button onClick={nextSlide} >next</button>
-                <button onClick={prevSlide} >previous</button>
+                {/* <button className={'control-button'} onClick={prevSlide} >previous</button> */}
+                {headings}
+                {/* <button className={'control-button'} onClick={nextSlide} >next</button> */}
             </div>
 
         </section>
