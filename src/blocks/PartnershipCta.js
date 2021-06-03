@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/PartnershipCta.scss'
 
 export default function PartnershipCta() {
     return (
