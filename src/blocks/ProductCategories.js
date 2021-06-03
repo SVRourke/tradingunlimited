@@ -8,7 +8,9 @@ import {
     BsShieldLock
  } from "react-icons/bs";
 
- import { slides } from '../data/categoriesSlides'
+import { slides } from '../data/categoriesSlides'
+
+import '../styles/ProductCategories'
 
 export default function ProductCategories() {
     const [slideIdx, setSlide ] = useState(0)
@@ -24,13 +26,17 @@ export default function ProductCategories() {
     }
 
     return (
-        <section className={'block_full-screen'}>
+        <section id='categories' className={'block_full-screen'}>
             <div className={'row'}>
+                <div className={'column'} >
+                    
+                </div>
 
-                <p className={'blue-tab'}>{slide.tab}</p>
-                <h2 className={'big-title'}>{slide.title}</h2>
-                <p>{slide.blurb}</p>
-
+                <div className={'column'} >
+                    <p className={'blue-tab'}>{slide.tab}</p>
+                    <h2 className={'big-title'}>{slide.title}</h2>
+                    <p>{slide.blurb}</p>
+                </div>
             </div>
 
             <div className={'row'}>
