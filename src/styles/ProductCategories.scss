@@ -1,24 +1,24 @@
+@import 'variables';
+
 #categories {
     padding: 2rem 10rem;
     justify-content: center;
 
     .column {
-        width: 50%;
-        padding: 1rem 3rem;
-
-        &:not(:last-child) {
-            align-items: center;
-        }
+        width: 45%;
+        
         .blue-tab {
             font-size: 1rem;
         }
+        
         .img {
-            height: 38rem;
-            width: 35rem;
+            height: 40rem;
+            width: 100%;
             background-position: center;
             background-size: cover;
             border-radius: .5rem;
         }
+        
         .big-title {
             margin-bottom: 1rem;
             font-size: 4.5rem;
@@ -32,6 +32,30 @@
 
     .row {
         width: 100%;
-        justify-content: space-evenly;
+        justify-content: space-between;
+
+        &:last-of-type {
+            margin-top: 2rem;
+        }
+
+        .active-control {
+            color: white;
+            background-color: $light-medium-blue;
+            border-color: $light-medium-blue;
+            transition: ease-in-out 300ms;
+        }
+
+        .control-button {
+            font-size: 1.8rem;
+            font-weight: 800;
+            background: none;
+            border: solid black 2px;
+            padding: .5rem 1rem;
+            border-radius: .5rem;
+
+            &:hover {
+                @extend .active-control
+            }
+        }
     }
 }
