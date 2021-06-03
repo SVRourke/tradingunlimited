@@ -38,6 +38,23 @@ export default function ProductCategories() {
                     <p className={'blue-tab'}>{slide.tab}</p>
                     <h2 className={'big-title'}>{slide.title}</h2>
                     <p>{slide.blurb}</p>
+                    <section className={'badge-section'}>
+                        <div className={'badge'}>
+                            <BsPhone className={'badge-icon'} />
+                            <p>1+ 954-783-0400</p>
+                        </div>
+
+                        <div className={'badge'}>
+                            <BsEnvelopeOpen className={'badge-icon'} />
+                            <p>send us a message!</p>
+                        </div>
+
+                        <div className={'badge'}>
+                            <BsShieldLock className={'badge-icon'} />
+                            <p>Authorized Dealer</p>
+                        </div>
+
+                    </section>
                 </div>
             </div>
 
