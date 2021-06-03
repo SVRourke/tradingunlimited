@@ -9,11 +9,20 @@
         &:not(:last-child) {
             align-items: center;
         }
-        
+        .blue-tab {
+            font-size: 1rem;
+        }
         .img {
             height: 38rem;
             width: 35rem;
-            
+            background-position: center;
+            background-size: cover;
+            border-radius: .5rem;
+        }
+        .big-title {
+            margin-bottom: 1rem;
+            font-size: 4.5rem;
+            word-wrap: wrap-reverse;
         }
 
         p {
