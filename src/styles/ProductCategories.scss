@@ -12,7 +12,7 @@
         }
         
         .img {
-            height: 40rem;
+            height: 60vh;
             width: 100%;
             background-position: center;
             background-size: cover;
@@ -35,7 +35,7 @@
         justify-content: space-between;
 
         &:last-of-type {
-            margin-top: 2rem;
+            margin-top: 3rem;
         }
 
         .active-control {
@@ -57,5 +57,12 @@
                 @extend .active-control
             }
         }
+    }
+
+    .badge-section {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
     }
 }
