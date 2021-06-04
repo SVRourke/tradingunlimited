@@ -1,5 +1,11 @@
-@import 'variables'
+@import 'variables';
+
 
 #contact {
-    
+ background-color: $dark-gray;
+ color: $white;
+
+ * {
+     color: inherit;
+ }
 }
