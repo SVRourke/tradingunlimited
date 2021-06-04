@@ -4,7 +4,7 @@ import '../styles/Contact.scss'
 
 export default function Contact() {
     return (
-        <section className={'block_full-screen'}>
+        <section id="contact" className={'block_full-screen'}>
             Contact            
         </section>
     )
