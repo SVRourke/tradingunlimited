@@ -3,7 +3,6 @@ import React from "react";
 import { BsPhone, BsEnvelopeOpen, BsMap } from "react-icons/bs";
 
 import "../styles/Contact.scss";
-import "../styles/form.scss";
 
 export default function Contact() {
   return (
@@ -39,22 +38,22 @@ export default function Contact() {
         <div className={"column"}>
           <form>
             <div className={'row'}>
-                <div className={'column'}>
+                <div className={"form-column"}>
                     <label for="name">Name:</label>
-                    <input id="name" name="name" type="text" />
+                    <input id="name" name="name" type="text" placeholder='so and so' />
                 </div>
                 
-                <div className={'column'}>
+                <div className={"form-column"}>
                     <label for="email">Email:</label>
-                    <input id="email" name="email" type="email" />
+                    <input id="email" name="email" type="email" placeholder='person@example.com' />
                 </div>
 
             </div>
 
             <label for="message">Message:</label>
-            <textarea id="message" name="message" type="message" />
+            <textarea id="message" name="message" type="message" placeholder='enter a message...' />
 
-            <input type="submit" value="send" />
+            <input type="submit" value="Submit!" />
           </form>
         </div>
       </div>
