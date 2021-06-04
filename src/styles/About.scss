@@ -1,18 +1,61 @@
 @import 'variables';
 
 #about {
-    padding: 10rem;
+    padding: 0rem 10rem;
+
+
     span {
         font-size: inherit;
         color: $light-medium-blue;
     }
 
     justify-content: center;
+    .row {
+        justify-content: space-between;
+    }
     .column {
         p {
             font-size: 1.5rem;
             max-width:43ch;
         }
-    } 
+
+        .building-image-backdrop {
+            background-color: $light-blue;
+            width: 35vw;
+            height: 32vw;
+        }
+        .building-image {
+            position: relative;
+            top: 2rem;
+            right: 2rem;
+            width: 35vw;
+            height: 32vw;
+            background-position: center;
+            background-size: cover;
+            
+
+        }
+
+        &:last-of-type {
+            justify-content: right;
+        }
+    }
+    
+    .badge-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+        padding-top: 2rem;
+    }
+
+    .blue-tab {
+        font-size: .7rem;
+        margin-bottom: 1rem;
+    }
+    .big-title {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+
 
 }
