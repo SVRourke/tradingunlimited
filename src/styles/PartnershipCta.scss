@@ -42,5 +42,18 @@
             }
         }
     }
+    .svgcontainer {
+        width: 100vw;
+    }
+    #separatorTop {
+        position: relative;
+        top: -10rem;
+        width: auto;
+        height: auto;
+
+        path {
+            fill: white;
+        }
+    }
 
 }
