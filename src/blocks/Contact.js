@@ -21,10 +21,13 @@ export default function Contact() {
                 <div className={'column'}>
                     <form>
                         <label for="name">Name:</label>
-                        <input type='text' />
+                        <input id="name" type='text' />
                         
-                        <label for="email">Name:</label>
-                        <input type='email' />
+                        <label for="email">Email:</label>
+                        <input id="email" type='email' />
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" type='email' />
 
                         <input type='submit' value='send' />
                     </form>
