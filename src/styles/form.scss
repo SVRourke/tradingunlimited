@@ -1,5 +1,7 @@
+@import 'variables';
+
 form {
-    padding-top: 3rem;
+    padding-top: 5rem;
     height: 100%;
     width: 100%;
     display: flex;
@@ -8,24 +10,37 @@ form {
 
     label {
       font-size: 1.25rem;
+      width: fit-content;
+      margin-bottom: .5rem;
+      &:last-of-type {
+        //   margin-top: 2rem;
+      }
     }
 
-    row {
+    .form-column {
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        justify-content: space-between;
+
+        &:first-of-type {
+            width: 30%;
+            margin-right: 2rem;
+        }
+
     }
 
-    .column {
-        width: 100%;
-        &:first-of-type {width: 30%;}
-
+    div.row {
+        padding-bottom: 1rem;
     }
+
+    
 
     input,
     textarea {
+        font-size: 1.2rem;
       background: none;
       border: solid $white 2px;
-      padding: 1rem 2rem;
+      padding: 1.2rem .75rem;
       border-radius: 0.8rem;
 
       &[type="submit"] {
@@ -33,8 +48,12 @@ form {
         padding: 0.6rem 3rem;
         font-size: 1.7rem;
       }
+      &[type="email"] {
+      }
     }
     textarea {
         height: 100%;
+        margin-bottom: 1rem;
     }
+
   }
