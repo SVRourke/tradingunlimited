@@ -23,6 +23,24 @@ export default function Contact() {
                         nisi felis, luctus quis molestie at, blandit ut velit. Aenean 
                         sit amet efficitur diam.
                     </p>
+
+                    <div className={'badge-column'}>
+                        <div className={'badge'}>
+                            <BsPhone className={'badge-icon'} />
+                            <p>1+ 954-783-0400</p>
+                        </div>
+
+                        <div className={'badge'}>
+                            <BsEnvelopeOpen className={'badge-icon'} />
+                            <p>send us a message!</p>
+                        </div>
+
+                        <div className={'badge'}>
+                            <BsMap className={'badge-icon'} />
+                            <p>Authorized Dealer</p>
+                        </div>
+
+                    </div>
                 </div>
                 
                 <div className={'column'}>
