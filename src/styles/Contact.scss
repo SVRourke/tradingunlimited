@@ -5,6 +5,10 @@
     color: inherit;
   }
 
+  .big-title {
+    font-size: 5rem;
+  }
+
   background-color: $dark-gray;
   color: $white;
   padding: 1rem 10rem;
@@ -40,6 +44,6 @@
       }
     }
   }
-
-  
 }
+
+@import 'form';
