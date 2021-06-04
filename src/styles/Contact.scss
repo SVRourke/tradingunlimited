@@ -1,20 +1,43 @@
-@import 'variables';
-
+@import "variables";
 
 #contact {
- background-color: $dark-gray;
- color: $white;
- padding: 1rem 10rem;
- justify-content: center;
+  * {
+    color: inherit;
+  }
 
- 
- .badge-column {
-     display: flex;
-     flex-direction: column;
- }
+  background-color: $dark-gray;
+  color: $white;
+  padding: 1rem 10rem;
+  justify-content: center;
 
+  p {
+    width: 45ch;
+    font-size: 1.35rem;
+  }
 
- * {
-     color: inherit;
- }
+  .row {
+    width: 50%;
+    .column {
+      justify-content: flex-end;
+    }
+  }
+
+  .badge-column {
+    display: flex;
+    flex-direction: column;
+
+    .badge {
+      margin-top: 2rem;
+      align-items: center;
+
+      p {
+        font-size: 1.25rem;
+      }
+
+      .badge-icon {
+        fill: $white;
+        font-size: 3rem;
+      }
+    }
+  }
 }
