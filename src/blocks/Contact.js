@@ -37,11 +37,18 @@ export default function Contact() {
 
         <div className={"column"}>
           <form>
-            <label for="name">Name:</label>
-            <input id="name" name="name" type="text" />
+            <div className={'row'}>
+                <div className={'column'}>
+                    <label for="name">Name:</label>
+                    <input id="name" name="name" type="text" />
+                </div>
+                
+                <div className={'column'}>
+                    <label for="email">Email:</label>
+                    <input id="email" name="email" type="email" />
+                </div>
 
-            <label for="email">Email:</label>
-            <input id="email" name="email" type="email" />
+            </div>
 
             <label for="message">Message:</label>
             <textarea id="message" name="message" type="message" />
