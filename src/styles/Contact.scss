@@ -7,6 +7,12 @@
  padding: 1rem 10rem;
  justify-content: center;
 
+ 
+ .badge-column {
+     display: flex;
+     flex-direction: column;
+ }
+
 
  * {
      color: inherit;
