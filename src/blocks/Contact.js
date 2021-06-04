@@ -3,6 +3,7 @@ import React from "react";
 import { BsPhone, BsEnvelopeOpen, BsMap } from "react-icons/bs";
 
 import "../styles/Contact.scss";
+import "../styles/form.scss";
 
 export default function Contact() {
   return (
