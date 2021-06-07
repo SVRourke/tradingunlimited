@@ -1,6 +1,7 @@
 @import "variables";
 
 #contact {
+  height: 100%;
   * {
     color: inherit;
   }
@@ -11,14 +12,21 @@
 
   background-color: $dark-gray;
   color: $white;
-  padding: 1rem 10rem;
-  justify-content: center;
+  justify-content: flex-start;
+
+  #contact-separator {
+    fill: $dark-blue;
+    margin-bottom: 10rem;
+  }
 
   p {
     width: 45ch;
     font-size: 1.35rem;
   }
-
+  .contact-content {
+    padding: 1rem 10rem;
+    margin-bottom: 12rem;
+  }
   .row {
     .column {
       width: 50%;
