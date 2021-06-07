@@ -7,7 +7,16 @@ import "../styles/Contact.scss";
 export default function Contact() {
   return (
     <section id="contact" className={"block_full-screen"}>
-      <div className={"row"}>
+    <svg id="contact-separator" viewBox="0 0 800 59">
+        <g transform="matrix(1,0,0,1,6.57252e-14,-329)">
+          <g transform="matrix(1.00766,0,0,1.08407,-2.46102,-27.6597)">
+            <path
+              d="M796.36,329.001L2.442,329.001L2.442,357.597C398.644,445.28 398.412,271.416 796.36,357.597L796.36,329.001Z"
+            />
+          </g>
+        </g>
+      </svg>
+      <div className={"contact-content row"}>
         <div className={"column"}>
           <h2 className={"big-title"}>Contact Us</h2>
           <p>
