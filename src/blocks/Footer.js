@@ -3,7 +3,7 @@ import topLogo from '../assets/top-logo.png'
 
 export default function Footer() {
     return (
-        <section className={'block'}>
+        <footer className={'block'}>
             <img src={topLogo} />
 
             <section className={'footer-nav'} >
@@ -23,6 +23,6 @@ export default function Footer() {
                     {/* Message badge */}
                 </div>
             </section>
-        </section>
+        </footer>
     )
 }
