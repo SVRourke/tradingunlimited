@@ -4,8 +4,9 @@
 header {
     background-color: black;
     justify-content: space-between;
-    padding: 3rem;
+    padding: 3rem 5rem;
     overflow: hidden;
+
     .navbar {
         display: flex;
         flex-direction: row;
@@ -43,6 +44,9 @@ header {
 
         .column {
             justify-content: center;
+            video {
+                max-width: 100%;
+            }
         }
 
         div {

@@ -1,16 +1,12 @@
 @import 'variables';
 
 #categories {
-    padding: 2rem 10rem;
+    padding: 2rem $side-padding;
     justify-content: center;
 
     .column {
         width: 45%;
-        
-        .blue-tab {
-            font-size: 1rem;
-        }
-        
+            
         .img {
             height: 60vh;
             width: 100%;
