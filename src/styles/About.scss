@@ -2,6 +2,7 @@
 
 #about {
     padding: 0rem $side-padding;
+    justify-content: center;
 
 
     span {
@@ -9,10 +10,10 @@
         color: $light-medium-blue;
     }
 
-    justify-content: center;
     .row {
         justify-content: space-between;
     }
+    
     .column {
         p {
             font-size: 1.5rem;
@@ -21,19 +22,19 @@
 
         .building-image-backdrop {
             background-color: $light-blue;
-            width: 35vw;
-            height: 32vw;
+            width: 30vw;
+            height: 30vw;
+            border-radius: .5rem;
         }
         .building-image {
+            border-radius: .5rem;
             position: relative;
             top: 2rem;
             right: 2rem;
-            width: 35vw;
-            height: 32vw;
+            width: 30vw;
+            height: 30vw;
             background-position: center;
             background-size: cover;
-            
-
         }
 
         &:last-of-type {
@@ -45,7 +46,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 3rem;
-        padding-top: 2rem;
+        padding-top: 4rem;
     }
 
     .blue-tab {
@@ -53,7 +54,6 @@
         margin-bottom: 1rem;
     }
     .big-title {
-        font-size: 4rem;
         margin-bottom: 1rem;
     }
 
