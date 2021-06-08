@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Brands.scss'
-
+import Slider from '../components/Slider'
 export default function Brands() {
     return (
         <section id='brands' className={'block'}>
@@ -13,7 +13,7 @@ export default function Brands() {
                 gravida feugiat efficitur. Nulla consequat tincidunt nisi sed viverra.
             </p>
 
-            <div className={'mockup-slider'} />            
+            <Slider className={'mockup-slider'} />            
         </section>
     )
 }
