@@ -14,16 +14,61 @@ import {ReactComponent as Samsung} from '../assets/brands/samsung.svg'
 const Slider = () => {
     return (
         <div id="slider" >
-            <Apple fill="blue" />
-            <Garmin fill="blue" />
-            <GoPro fill="blue" />
-            <Hp fill="blue" />
-            <Leica fill="blue" />
-            <Lg fill="blue" />
-            <Microsoft fill="blue" />
-            <Samsung fill="blue" />
-
+            <div className={'slide'}>
+                <Apple />
+            </div>
             
+            <div className={'slide'}>
+                <Garmin />
+            </div>
+            
+            <div className={'slide'}>
+                <Apple />
+            </div>
+
+            <div className={'slide'}>
+                <Hp />
+            </div>
+
+            <div className={'slide'}>
+                <Garmin />
+            </div>
+            
+            <div className={'slide'}>
+                <Leica />
+            </div>
+            
+            <div className={'slide'}>
+                <Hp />
+            </div>
+            
+            <div className={'slide'}>
+                <Lg />
+            </div>
+            
+            <div className={'slide'}>
+                <Leica />
+            </div>
+            
+            <div className={'slide'}>
+                <Microsoft />
+            </div>
+            
+            <div className={'slide'}>
+                <Lg />
+            </div>
+            
+            <div className={'slide'}>
+                <Samsung />
+            </div>
+            
+            <div className={'slide'}>
+                <Microsoft />
+            </div>
+
+            <div className={'slide'}>
+                <Samsung />
+            </div>
         </div>
     )
 }
