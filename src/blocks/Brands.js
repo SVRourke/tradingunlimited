@@ -13,7 +13,7 @@ export default function Brands() {
                 gravida feugiat efficitur. Nulla consequat tincidunt nisi sed viverra.
             </p>
 
-            <Slider className={'mockup-slider'} />            
+            <Slider />            
         </section>
     )
 }
