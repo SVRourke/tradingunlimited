@@ -1,21 +1,16 @@
 import React from "react";
 
 import { BsPhone, BsEnvelopeOpen, BsMap } from "react-icons/bs";
-
+import BadgeText from "../components/BadgeText";
 import "../styles/Contact.scss";
+
+import { ReactComponent as Separator } from "../assets/separator.svg";
 
 export default function Contact() {
   return (
     <section id="contact" className={"block_full-screen"}>
-    <svg id="contact-separator" viewBox="0 0 800 59">
-        <g transform="matrix(1,0,0,1,6.57252e-14,-329)">
-          <g transform="matrix(1.00766,0,0,1.08407,-2.46102,-27.6597)">
-            <path
-              d="M796.36,329.001L2.442,329.001L2.442,357.597C398.644,445.28 398.412,271.416 796.36,357.597L796.36,329.001Z"
-            />
-          </g>
-        </g>
-      </svg>
+      <Separator />
+
       <div className={"contact-content row"}>
         <div className={"column"}>
           <h2 className={"big-title"}>Contact Us</h2>
@@ -28,39 +23,43 @@ export default function Contact() {
           </p>
 
           <div className={"badge-column"}>
-            <div className={"badge"}>
-              <BsMap className={"badge-icon"} />
-              <p>Hollywood FL, USA</p>
-            </div>
-            <div className={"badge"}>
-              <BsPhone className={"badge-icon"} />
-              <p>1+ 954-783-0400</p>
-            </div>
-
-            <div className={"badge"}>
-              <BsEnvelopeOpen className={"badge-icon"} />
-              <p>send us a message!</p>
-            </div>
+            <BadgeText icon={'BsMap'} text={"Hollywood FL, USA"}/>
+            <BadgeText icon={'BsPhone'} text={"1+ 954-783-0400"}/>
+            <BadgeText icon={'BsEnvelopeOpen'} text={"send us a message!"}/>
           </div>
         </div>
 
         <div className={"column"}>
           <form>
-            <div className={'row'}>
-                <div className={"form-column"}>
-                    <label for="name">Name:</label>
-                    <input id="name" name="name" type="text" placeholder='so and so' />
-                </div>
-                
-                <div className={"form-column"}>
-                    <label for="email">Email:</label>
-                    <input id="email" name="email" type="email" placeholder='person@example.com' />
-                </div>
+            <div className={"row"}>
+              <div className={"form-column"}>
+                <label for="name">Name:</label>
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  placeholder="so and so"
+                />
+              </div>
 
+              <div className={"form-column"}>
+                <label for="email">Email:</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="person@example.com"
+                />
+              </div>
             </div>
 
             <label for="message">Message:</label>
-            <textarea id="message" name="message" type="message" placeholder='enter a message...' />
+            <textarea
+              id="message"
+              name="message"
+              type="message"
+              placeholder="enter a message..."
+            />
 
             <input type="submit" value="Submit!" />
           </form>
