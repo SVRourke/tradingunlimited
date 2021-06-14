@@ -1,69 +1,67 @@
-import React, {
-    useState
-} from 'react'
+import React, { useState, useEffect } from "react";
+import { BsPhone, BsEnvelopeOpen, BsShieldLock } from "react-icons/bs";
+import BadgeText from "../components/BadgeText";
 
-import { 
-    BsPhone,
-    BsEnvelopeOpen,
-    BsShieldLock
- } from "react-icons/bs";
+import { slides } from "../data/categoriesSlides";
 
-import { slides } from '../data/categoriesSlides'
+import "../styles/ProductCategories.scss";
 
-import '../styles/ProductCategories.scss'
+const CategorySlide = ({ slide }) => {
+  return (
+    <div id="category-slide" className={"row"}>
+      <div className={"column"}>
+        <div
+          className={"img"}
+          style={{ backgroundImage: `url("${slide.img}")` }}
+        />
+      </div>
+
+      <div className={"column"}>
+        <p className={"blue-tab"}>{slide.tab}</p>
+        <h2 className={"big-title"}>{slide.title}</h2>
+        <p>{slide.blurb}</p>
+
+        <section className={"badge-section"}>
+          <BadgeText icon={"BsPhone"} text={"+1 954-783-0400"} />
+          <BadgeText icon={"BsEnvelopeOpen"} text={"send us a message!"} />
+          <BadgeText icon={"BsShieldLock"} text={"Authorized Dealer"} />
+        </section>
+      </div>
+    </div>
+  );
+};
 
 export default function ProductCategories() {
-    const [slideIdx, setSlide ] = useState(0)
-    
-    let slide = slides[slideIdx]
+  const [slideIdx, setSlide] = useState(0);
 
-    const headings = slides.map(s => <button className={'control-button'}>{s.tab}</button>)
+  const slideCards = slides.map((s) => <CategorySlide slide={s} />);
+  let slide = slideCards[slideIdx];
 
-    const nextSlide = () => {
-        slideIdx < slides.length - 1 ? setSlide(slideIdx + 1) : setSlide(0)
-    }
+  const headings = slides.map((s) => (
+    <button className={"control-button"}>{s.tab}</button>
+  ));
 
-    const prevSlide = () => {
-        slideIdx > 0 ? setSlide(slideIdx - 1) : setSlide(slides.length - 1)
-    }
+  const nextSlide = () => {
+    console.log("NEXT SLIDE");
+    slideIdx < slides.length - 1 ? setSlide(slideIdx + 1) : setSlide(0);
+  };
 
-    return (
-        <section id='categories' className={'block_full-screen'}>
-            <div className={'row'}>
-                <div className={'column'} >
-                    <div className={'img'} style={{backgroundImage: `url("${slide.img}")`}} />
-                </div>
+  const prevSlide = () => {
+    slideIdx > 0 ? setSlide(slideIdx - 1) : setSlide(slides.length - 1);
+  };
 
-                <div className={'column'} >
-                    <p className={'blue-tab'}>{slide.tab}</p>
-                    <h2 className={'big-title'}>{slide.title}</h2>
-                    <p>{slide.blurb}</p>
-                    <section className={'badge-section'}>
-                        <div className={'badge'}>
-                            <BsPhone className={'badge-icon'} />
-                            <p>1+ 954-783-0400</p>
-                        </div>
+  useEffect(() => {
+    setTimeout(nextSlide, 3000);
+  }, [slideIdx]);
 
-                        <div className={'badge'}>
-                            <BsEnvelopeOpen className={'badge-icon'} />
-                            <p>send us a message!</p>
-                        </div>
+  return (
+    <section id="categories" className={"block_full-screen"}>
+      {slide}
 
-                        <div className={'badge'}>
-                            <BsShieldLock className={'badge-icon'} />
-                            <p>Authorized Dealer</p>
-                        </div>
-
-                    </section>
-                </div>
-            </div>
-
-            <div className={'row'}>
-                {/* <button className={'control-button'} onClick={prevSlide} >previous</button> */}
-                {headings}
-                {/* <button className={'control-button'} onClick={nextSlide} >next</button> */}
-            </div>
-
-        </section>
-    )
+      {/* <div className={"row"}>
+        {headings}
+        <button className={"control-button"} onClick={nextSlide}>next</button>
+      </div> */}
+    </section>
+  );
 }
