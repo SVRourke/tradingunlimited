@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from '../assets/top-logo.png'
 import Words from '../assets/trading-words.png'
 import '../styles/Header.scss'
-
+import BadgeText from '../components/BadgeText'
 export default function Header() {
     return (
         <header className={'block_full-screen'}>
@@ -42,7 +42,9 @@ export default function Header() {
 
 
             <section className={'header_phone'}>
-                <p>call 1+ 305-777-XXXX</p>
+                <a href="tel:9547830100">
+                    <BadgeText icon={'BsPhone'} text={'call 1+ 954-783-0100'}/>
+                </a>
             </section>
         </header>
     )
