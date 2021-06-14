@@ -1,20 +1,36 @@
-@import 'variables';
+@import "variables";
 
 #footer {
-    padding: 3rem $side-padding;
+  padding: 6rem $side-padding;
 
-    * {
-        color: white;
-    }
-    
-    background-color: $off-black;
-    height: 40vh;
+  * {
+    font-size: 1.5rem;
+    color: white;
+  }
 
+  background-color: $off-black;
+  // height: 40vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  img {
+    width: 33%;
+  }
+
+  nav,
+  div.badges {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 
-    img {
-        width: 50%;
+    svg {
+      fill: white;
     }
+  }
+  a:hover {
+    color: $light-blue;
+    cursor: default;
+  }
 }
