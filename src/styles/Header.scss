@@ -67,6 +67,12 @@ header {
                     margin-right: 1rem;
                 }
 
+                &:hover {
+                    background-color: $white;
+                    color: black;
+                    transition: 200ms ease-in;
+                }
+
             }
 
         }
@@ -77,13 +83,37 @@ header {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
+        // color: ;
+
+        svg {
+            fill: $grey-text;
+        }
         
         p {
-            color: $white;
+            color: $grey-text;
             font-weight: 400;
             font-size: 1.7rem;
+        }
+        a {
+            text-decoration: none;
+            &:hover {
+                animation-name: jiggle;
+                animation-duration: 200ms;
+                animation-iteration-count: 1;
+                animation-timing-function: ease-in-out;
+
+            }
         }
 
     }
 
+}
+
+
+@keyframes  jiggle {
+    0% {transform: rotateZ(0deg)}
+    25% {transform: rotateZ(3deg)}
+    50% {transform: rotateZ(0deg)}
+    75% {transform: rotateZ(-3deg)}
+    100% {transform: rotateZ(0deg)}
 }
