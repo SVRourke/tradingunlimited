@@ -1,7 +1,8 @@
 import React from "react";
-import { BsPhone, BsEnvelopeOpen, BsMap, BsStopwatch, BsLayersHalf, BsBoundingBox } from "react-icons/bs";
-import location from "../assets/location.jpg";
+
 import "../styles/About.scss";
+import location from "../assets/location.jpg";
+import BadgeText from "../components/BadgeText";
 
 export default function About() {
   return (
@@ -21,36 +22,12 @@ export default function About() {
           </p>
 
           <div className={"badge-grid"}>
-            <div className={"badge"}>
-              <BsMap className={"badge-icon"} />
-              <p>Hollywood FL, USA</p>
-            </div>
-
-            <div className={"badge"}>
-              <BsStopwatch className={"badge-icon"} />
-              <p>Orders Shipped Daily</p>
-            </div>
-
-            <div className={"badge"}>
-              <BsPhone className={"badge-icon"} />
-              <p>+1 954-783-0400</p>
-            </div>
-
-            <div className={"badge"}>
-              <BsLayersHalf className={"badge-icon"} />
-              <p>Multi Channel</p>
-            </div>
-
-            <div className={"badge"}>
-              <BsEnvelopeOpen className={"badge-icon"} />
-              <p>send us a message!</p>
-            </div>
-
-            <div className={"badge"}>
-              <BsBoundingBox className={"badge-icon"} />
-              <p>Multi Warehouse</p>
-            </div>
-
+            <BadgeText icon={"BsMap"} text={"Hollywood FL, USA"} />
+            <BadgeText icon={"BsStopwatch"} text={"Orders Shipped Daily"} />
+            <BadgeText icon={"BsPhone"} text={"+1 954-783-0400"} />
+            <BadgeText icon={"BsLayersHalf"} text={"Multi Channel"} />
+            <BadgeText icon={"BsEnvelopeOpen"} text={"send us a message!"} />
+            <BadgeText icon={"BsBoundingBox"} text={"Multi Warehouse"} />
           </div>
         </div>
 
