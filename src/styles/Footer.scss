@@ -1,19 +1,17 @@
 @import "variables";
 
 #footer {
-  padding: 6rem $side-padding;
+  padding: 6rem $side-padding 10rem;
+  background-color: $off-black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
   * {
     font-size: 1.5rem;
     color: white;
   }
 
-  background-color: $off-black;
-  // height: 40vh;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 
   img {
     width: 33%;
@@ -29,8 +27,10 @@
       fill: white;
     }
   }
+  a {
+    text-decoration: none;
+  }
   a:hover {
     color: $light-blue;
-    cursor: default;
   }
 }
