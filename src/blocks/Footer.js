@@ -9,15 +9,15 @@ export default function Footer() {
             <img src={topLogo} />
             
             <nav>
-                <a>Home</a>
-                <a>About</a>
-                <a>Products</a>
+                <a href="#header">Home</a>
+                <a href="#about">About</a>
+                <a href="#brands">Partners</a>
             </nav>
             
             <nav>
-                <a>Logistics</a>
-                <a>Become A Distributor</a>
-                <a>Contact</a>
+                <a href="#categories">Products</a>
+                <a href="#logistics">Logistics</a>
+                <a href="#partnerCta">Become A Distributor</a>
             </nav>
             
             <div className='badges'>
