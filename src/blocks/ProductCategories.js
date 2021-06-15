@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { BsPhone, BsEnvelopeOpen, BsShieldLock } from "react-icons/bs";
 import BadgeText from "../components/BadgeText";
 
 import { slides } from "../data/categoriesSlides";
@@ -37,21 +36,21 @@ export default function ProductCategories() {
   const slideCards = slides.map((s) => <CategorySlide slide={s} />);
   let slide = slideCards[slideIdx];
 
-  const headings = slides.map((s) => (
-    <button className={"control-button"}>{s.tab}</button>
-  ));
+  // const headings = slides.map((s) => (
+  //   <button className={"control-button"}>{s.tab}</button>
+  // ));
 
   const nextSlide = () => {
     console.log("NEXT SLIDE");
     slideIdx < slides.length - 1 ? setSlide(slideIdx + 1) : setSlide(0);
   };
 
-  const prevSlide = () => {
-    slideIdx > 0 ? setSlide(slideIdx - 1) : setSlide(slides.length - 1);
-  };
+  // const prevSlide = () => {
+  //   slideIdx > 0 ? setSlide(slideIdx - 1) : setSlide(slides.length - 1);
+  // };
 
   useEffect(() => {
-    setTimeout(nextSlide, 3000);
+    setTimeout(nextSlide, 4000);
   }, [slideIdx]);
 
   return (
