@@ -23,9 +23,15 @@ export default function Contact() {
           </p>
 
           <div className={"badge-column"}>
-            <BadgeText icon={'BsMap'} text={"Hollywood FL, USA"}/>
-            <BadgeText icon={'BsPhone'} text={"1+ 954-783-0400"}/>
-            <BadgeText icon={'BsEnvelopeOpen'} text={"send us a message!"}/>
+            <BadgeText icon={"BsMap"} text={"Hollywood FL, USA"} />
+
+            <a href="tel:9547830100">
+              <BadgeText icon={"BsPhone"} text={"1+ 954-783-0400"} />
+            </a>
+
+            <a href="mailto:contact@tradingunlimited.com">
+              <BadgeText icon={"BsEnvelopeOpen"} text={"send us a message!"} />
+            </a>
           </div>
         </div>
 
