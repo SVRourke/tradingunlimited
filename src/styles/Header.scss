@@ -98,12 +98,22 @@ header {
       font-size: 1.7rem;
     }
     a {
-      padding: 1rem;
+      padding: 0.5rem 1rem;
       text-decoration: none;
       border-radius: 1rem;
       border: solid $grey-text 2px;
       &:hover {
-        transition: all 200ms ease-in;
+        color: black;
+        border-color: white;
+        background-color: white;
+        transition: all 250ms ease-in;
+
+        svg {
+          fill: black;
+        }
+        p {
+          color: black;
+        }
       }
     }
   }
