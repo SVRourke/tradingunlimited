@@ -1,69 +1,77 @@
-@import 'resets';
-@import 'variables';
+@import "resets";
+@import "variables";
 
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700&display=swap");
 
 * {
-    font-family: 'karla', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    color: $off-black;
+  font-family: "karla", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: $off-black;
 }
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  overflow-x: hidden;
 }
 body {
-    background-color: $white;
+  scroll-behavior: smooth;
+  background-color: $white;
 }
 
 .row {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .column {
-    display: flex;
-    flex-direction: column;
-    width: fit-content
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
 }
 
 .block {
-    @extend .column;
-    width: 100%;
-    height: 100%;
+  @extend .column;
+  width: 100%;
+  height: 100%;
 
-    
-    &_full-screen {
-        @extend .block;
-        height: 100vh;
-    }
+  &_full-screen {
+    @extend .block;
+    height: 100vh;
+  }
 }
 
 .blue-tab {
-    padding: .3rem 2rem;
-    color: $white;
-    width: fit-content;
-    background-color: $light-medium-blue;
-    border-radius: .5rem;
-    font-size: 1rem;
+  padding: 0.3rem 2rem;
+  color: $white;
+  width: fit-content;
+  background-color: $light-medium-blue;
+  border-radius: 0.5rem;
+  font-size: 1rem;
 }
 
 .big-title {
-    font-size: 4.5rem;
-    font-weight: 700;
+  font-size: 4.5rem;
+  font-weight: 700;
 }
 
 .badge {
-    @extend .row;
-    p {
-        color: $grey-text;
-        font-weight: 400;
-        font-size: .9rem;
-    }
+  @extend .row;
+  p {
+    color: $grey-text;
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
 
-    svg {
-        font-size: 2rem;
-        fill: $medium-blue;
-        margin-right: 1rem;
-    }
+  svg {
+    font-size: 2rem;
+    fill: $medium-blue;
+    margin-right: 1rem;
+  }
+}
+.snap-start {
+  scroll-snap-align: start;
+}
+.snap-center {
+  scroll-snap-align: center;
 }
