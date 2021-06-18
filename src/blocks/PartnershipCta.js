@@ -4,7 +4,7 @@ import { ReactComponent as Separator } from "../assets/separator.svg";
 
 export default function PartnershipCta() {
   return (
-    <section id="partnerCta" className={"block"}>
+    <section id="partnerCta" className={"block snap-start"}>
       <Separator />
 
       <div className={"partner-content"}>
@@ -16,8 +16,13 @@ export default function PartnershipCta() {
         </p>
 
         <div className={"row"}>
-          <button>Download an Application</button>
-          <button>Contact Us</button>
+          <a
+            href="https://drive.google.com/uc?id=1gHwrCDP1_CjCPxWScsHXMyZw9MY2hbUy&export=download"
+            download
+          >
+            Download an Application
+          </a>
+          <a href="#contact">Contact Us</a>
         </div>
       </div>
     </section>
