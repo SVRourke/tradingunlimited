@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 import {
   Header,
@@ -9,7 +9,7 @@ import {
   PartnershipCta,
   Contact,
   Footer,
-} from './blocks'
+} from "./blocks";
 
 function App() {
   return (
@@ -23,7 +23,6 @@ function App() {
       <Contact />
       <Footer />
     </>
-
   );
 }
 
