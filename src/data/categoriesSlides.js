@@ -1,38 +1,37 @@
 export const slides = [
-    {
-        tab: 'Video',
-        title: 'Television & Home Theater',
-        blurb: "est. Sed nisi felis, luctus quis molestie at, blandit ut velit. Aenean sit amet efficitur diam. Curabitur consequat justo in feugiat porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-        img: 'https://images.pexels.com/photos/908430/pexels-photo-908430.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
-    },
-    {
-        tab: 'Audio',
-        title: 'Speakers & Audio Equipment',
-        blurb: "est. Sed nisi felis, luctus quis molestie at, blandit ut velit. Aenean sit amet efficitur diam. Curabitur consequat justo in feugiat porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-        img: 'https://images.pexels.com/photos/908430/pexels-photo-908430.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
-    },
-    {
-        tab: 'Photo',
-        title: 'Cameras, Lenses & Accessories',
-        blurb: "est. Sed nisi felis, luctus quis molestie at, blandit ut velit. Aenean sit amet efficitur diam. Curabitur consequat justo in feugiat porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-        img: 'https://images.pexels.com/photos/908430/pexels-photo-908430.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
-    },
-    {
-        tab: 'Electronics',
-        title: 'Gaming, Cellphones & Tablets',
-        blurb: "est. Sed nisi felis, luctus quis molestie at, blandit ut velit. Aenean sit amet efficitur diam. Curabitur consequat justo in feugiat porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-        img: 'https://images.pexels.com/photos/908430/pexels-photo-908430.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
-    },
-    {
-        tab: 'Drones',
-        title: 'FPV, Hobbyist & Professional',
-        blurb: "est. Sed nisi felis, luctus quis molestie at, blandit ut velit. Aenean sit amet efficitur diam. Curabitur consequat justo in feugiat porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-        img: 'https://images.pexels.com/photos/908430/pexels-photo-908430.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
-    },
-    {
-        tab: 'Computers & I.T. Equipment',
-        title: 'Computers, Laptops & I.T. Equipment',
-        blurb: "est. Sed nisi felis, luctus quis molestie at, blandit ut velit. Aenean sit amet efficitur diam. Curabitur consequat justo in feugiat porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-        img: 'https://images.pexels.com/photos/908430/pexels-photo-908430.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
-    },
-]
+  {
+    tab: "Video",
+    title: "Television & \n\r Home Theater",
+    blurb:
+      "est. Sed nisi felis, luctus quis molestie at, blandit ut velit. Aenean sit amet efficitur diam. Curabitur consequat justo in feugiat porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    img: "https://ik.imagekit.io/ultimatec/video_q7WGmdY67.png",
+  },
+  {
+    tab: "Audio",
+    title: "Speakers & Audio Equipment",
+    blurb:
+      "est. Sed nisi felis, luctus quis molestie at, blandit ut velit. Aenean sit amet efficitur diam. Curabitur consequat justo in feugiat porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    img: "https://ik.imagekit.io/ultimatec/trading/audio_RrSeJFHA5.png",
+  },
+  {
+    tab: "Photo",
+    title: "Cameras, Lenses & Accessories",
+    blurb:
+      "est. Sed nisi felis, luctus quis molestie at, blandit ut velit. Aenean sit amet efficitur diam. Curabitur consequat justo in feugiat porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    img: "https://ik.imagekit.io/ultimatec/trading/composed_photog_Uc6uQWnK-.png",
+  },
+  {
+    tab: "Electronics",
+    title: "Gaming, Cellphones & Tablets",
+    blurb:
+      "est. Sed nisi felis, luctus quis molestie at, blandit ut velit. Aenean sit amet efficitur diam. Curabitur consequat justo in feugiat porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    img: "https://ik.imagekit.io/ultimatec/gadgets_comp_RGEleiQ56.png",
+  },
+  {
+    tab: "Computers",
+    title: "Computers, Laptops & I.T. Equipment",
+    blurb:
+      "est. Sed nisi felis, luctus quis molestie at, blandit ut velit. Aenean sit amet efficitur diam. Curabitur consequat justo in feugiat porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    img: "https://ik.imagekit.io/ultimatec/computers_QZVUs2HAN.png",
+  },
+];
