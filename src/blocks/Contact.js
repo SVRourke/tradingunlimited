@@ -11,7 +11,7 @@ export default function Contact() {
     <section id="contact" className={"block_full-screen"}>
       <Separator />
 
-      <div className={"contact-content row"}>
+      <div className={"contact-content row snap-center"}>
         <div className={"column"}>
           <h2 className={"big-title"}>Contact Us</h2>
           <p>
