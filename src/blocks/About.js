@@ -7,7 +7,7 @@ import Fade from "react-reveal/Fade";
 
 export default function About() {
   return (
-    <section id="about" className={"block_full-screen about-block snap-start"}>
+    <section id="about" className={"block_full-screen about-block snap-center"}>
       <section className={"row"}>
         <Fade left>
           <div className={"column"}>
