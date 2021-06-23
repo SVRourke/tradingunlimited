@@ -10,13 +10,11 @@
   color: $off-black;
 }
 html {
-  scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
-  overflow-x: hidden;
+  overflow-y: scroll;
 }
 body {
-  scroll-behavior: smooth;
-  background-color: $white;
+  height: 100vh;
 }
 
 .row {
@@ -71,7 +69,9 @@ body {
 }
 .snap-start {
   scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 .snap-center {
   scroll-snap-align: center;
+  scroll-snap-stop: always;
 }
