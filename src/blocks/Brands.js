@@ -7,14 +7,12 @@ export default function Brands() {
   return (
     <Fade upin delay={400}>
       <section id="brands" className={"block snap-center"}>
-        <h2 className={"big-title"}>Our Partners</h2>
+        <h2 className={"big-title"}>Our Brand Partners</h2>
         <p>
-          rhoncus pretium. In dui sapien, faucibus nec porttitor non, pretium ut
-          est. Sed nisi felis, luctus quis molestie at, blandit ut velit. Aenean
-          sit amet efficitur diam. Curabitur consequat justo in feugiat
-          porttitor. Pellentesque habitant morbi tristique senectus et netus et
-          malesuada fames ac turpis egestas. Fusce gravida feugiat efficitur.
-          Nulla consequat tincidunt nisi sed viverra.
+          At Trading Unlimited we're proud to be authorized distributors of some
+          of the top brands in the industry. Whether you're looking for; a
+          high-speed lens for professional sports photography, a pair of
+          headphones or the latest 8K TVs Trading Unlimited has what you need.
         </p>
 
         <Slider />
