@@ -1,6 +1,6 @@
 import React from "react";
 
-import { BsPhone, BsEnvelopeOpen, BsMap } from "react-icons/bs";
+import { BsPhone, BsEnvelopeOpen, BsMap, BsFileText } from "react-icons/bs";
 import BadgeText from "../components/BadgeText";
 import "../styles/Contact.scss";
 
@@ -15,11 +15,10 @@ export default function Contact() {
         <div className={"column"}>
           <h2 className={"big-title"}>Contact Us</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut placerat
-            auctor cursus. Phasellus est ex, vehicula non ultricies at, pretium
-            ac lacus. Sed luctus nibh eu dui rhoncus pretium. In dui sapien,
-            faucibus nec porttitor non, pretium ut est. Sed nisi felis, luctus
-            quis molestie at, blandit ut velit. Aenean sit amet efficitur diam.
+            At Trading Unlimited we believe our most valuable assets are the
+            relationships we develop with our partners and customers and we're
+            always adding more. If you'd like to become a partner or customer
+            we'd like to hear about it!
           </p>
 
           <div className={"badge-column"}>
@@ -29,6 +28,7 @@ export default function Contact() {
               <BadgeText icon={"BsPhone"} text={"1+ 954-783-0400"} />
             </a>
 
+            <BadgeText icon={"BsFileText"} text={"Fax: 1+ 954-783-0400"} />
             <a href="mailto:contact@tradingunlimited.com">
               <BadgeText icon={"BsEnvelopeOpen"} text={"send us a message!"} />
             </a>
