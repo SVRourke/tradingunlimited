@@ -11,8 +11,9 @@
 }
 html {
   scroll-snap-type: y mandatory;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
+
 body {
   height: 100vh;
 }
