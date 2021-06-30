@@ -4,7 +4,6 @@ import {
   Header,
   About,
   Brands,
-  ProductCategories,
   Logistics,
   PartnershipCta,
   RightImage,

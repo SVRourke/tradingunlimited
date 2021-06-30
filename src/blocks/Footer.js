@@ -6,7 +6,7 @@ import BadgeText from "../components/BadgeText";
 export default function Footer() {
   return (
     <footer id="footer" className={"block snap-start"}>
-      <img src={topLogo} />
+      <img alt="trading unlimited" src={topLogo} />
 
       <nav>
         <a href="#header">Home</a>

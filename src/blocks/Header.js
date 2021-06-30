@@ -10,7 +10,7 @@ export default function Header() {
     <header id="header" className={"block_full-screen snap-start"}>
       <Fade down>
         <section className={"navbar"}>
-          <img src={Logo} />
+          <img alt="trading unlimited" src={Logo} />
 
           <nav>
             <a href="#about">About</a>
@@ -25,7 +25,7 @@ export default function Header() {
       <section className={"header_content"}>
         <Fade up delay={300} duration={900}>
           <div className={"column"}>
-            <img src={Words} />
+            <img alt="trading unlimited" src={Words} />
 
             <Fade up delay={800} duration={1000}>
               <div>

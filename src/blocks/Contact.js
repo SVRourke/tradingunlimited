@@ -1,6 +1,5 @@
 import React from "react";
 
-import { BsPhone, BsEnvelopeOpen, BsMap, BsFileText } from "react-icons/bs";
 import BadgeText from "../components/BadgeText";
 import "../styles/Contact.scss";
 
