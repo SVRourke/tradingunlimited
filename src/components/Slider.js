@@ -23,7 +23,7 @@ const Slider = () => {
       </div>
 
       <div className={"slide"}>
-        <Canon />
+        <Apple />
       </div>
 
       <div className={"slide"}>
@@ -31,7 +31,7 @@ const Slider = () => {
       </div>
 
       <div className={"slide"}>
-        <GoPro />
+        <Garmin />
       </div>
 
       <div className={"slide"}>
