@@ -15,13 +15,17 @@ export default function About() {
             <h2 className={"big-title"}>
               17 Years of <span className={"blue-text"}>Experience</span>
             </h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-              placerat auctor cursus. Phasellus est ex, vehicula non ultricies
-              at, pretium ac lacus. Sed luctus nibh eu dui rhoncus pretium. In
-              dui sapien, faucibus nec porttitor non, pretium ut est. Sed nisi
-              felis, luctus quis molestie at, blandit ut velit. Aenean sit amet
-              efficitur diam.
+            <p style={{ marginBottom: "1rem", textAlign: "justify" }}>
+              For the past 17 years trading unlimited has been serving
+              customers, first from a physical store and later adapting to
+              become one of the leading online distributors of consumer
+              electronics.
+            </p>
+            <p style={{ textAlign: "justify" }}>
+              Our success is the result of our dedication to building
+              relationships with our partners and customers. Our tremendous
+              buying power and multiple warehouses allow us to take advantage of
+              any opportunity that arises.
             </p>
 
             <div className={"badge-grid"}>
