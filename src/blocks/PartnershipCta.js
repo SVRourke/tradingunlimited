@@ -10,9 +10,10 @@ export default function PartnershipCta() {
       <div className={"partner-content"}>
         <h2 className={"big-title"}>Become a Partner</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut placerat
-          auctor cursus. Phasellus est ex, vehicula non ultricies at, pretium ac
-          lacus.
+          At Trading Unlimited We're always looking for new ways to expand our
+          business. Whether through new partnerships, products or channels of
+          distribution. If you think you could benefit from our buying power or
+          17 years of experience become a partner.
         </p>
 
         <div className={"row"}>
