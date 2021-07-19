@@ -19,7 +19,7 @@ export default function RightImage({ data: { title, blurb, img }, left }) {
       <div className="row " style={conditionalStyle(left)}>
         <Fade left={!left} right={left} delay={200} duration={300}>
           <div className="column">
-            <img src={img} />
+            <img src={img} alt={img} />
           </div>
         </Fade>
 
