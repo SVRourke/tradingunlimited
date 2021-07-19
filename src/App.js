@@ -17,15 +17,6 @@ function App() {
     return <RightImage data={s} left={facingLeft} />;
   });
 
-  window.addEventListener("wheel", (e) => {
-    const direction = e.deltaY > 0 ? 1 : -1;
-    window.scrollBy({
-      left: 0,
-      top: direction * 200,
-      behavior: "smooth",
-    });
-  });
-
   return (
     <>
       <Header />
