@@ -10,12 +10,15 @@
   color: $off-black;
 }
 html {
-  scroll-snap-type: y mandatory;
-  overflow-y: hidden;
+  height: 100%;
+  overflow: hidden;
 }
 
 body {
-  height: 100vh;
+  height: 100%;
+  overflow: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
 }
 
 .row {
