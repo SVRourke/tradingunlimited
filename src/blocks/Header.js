@@ -7,7 +7,7 @@ import Fade from "react-reveal/Fade";
 
 export default function Header() {
   return (
-    <header id="header" className={"block_full-screen snap-start"}>
+    <header id="header" className={"block_full-screen snap-start"} tabIndex="1">
       <Fade down>
         <section className={"navbar"}>
           <img alt="trading unlimited" src={Logo} />
