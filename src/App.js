@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { slides } from "./data/categoriesSlides";
 import {
   Header,
@@ -16,6 +16,11 @@ function App() {
     const facingLeft = idx % 2 === 0 ? false : true;
     return <RightImage data={s} left={facingLeft} />;
   });
+
+  useEffect(() => {
+    const header = document.querySelector("header");
+    header.focus();
+  }, []);
 
   return (
     <>
