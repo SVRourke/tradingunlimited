@@ -1,6 +1,7 @@
 import React from "react";
 
 import BadgeText from "../components/BadgeText";
+import ContactForm from "../components/ContactForm";
 import "../styles/Contact.scss";
 
 import { ReactComponent as Separator } from "../assets/separator.svg";
@@ -35,39 +36,7 @@ export default function Contact() {
         </div>
 
         <div className={"column"}>
-          <form>
-            <div className={"row"}>
-              <div className={"form-column"}>
-                <label for="name">Name:</label>
-                <input
-                  id="name"
-                  name="name"
-                  type="text"
-                  placeholder="so and so"
-                />
-              </div>
-
-              <div className={"form-column"}>
-                <label for="email">Email:</label>
-                <input
-                  id="email"
-                  name="email"
-                  type="email"
-                  placeholder="person@example.com"
-                />
-              </div>
-            </div>
-
-            <label for="message">Message:</label>
-            <textarea
-              id="message"
-              name="message"
-              type="message"
-              placeholder="enter a message..."
-            />
-
-            <input type="submit" value="Submit!" />
-          </form>
+          <ContactForm />
         </div>
       </div>
     </section>
