@@ -6,7 +6,7 @@ import Fade from "react-reveal/Fade";
 export default function Brands() {
   return (
     <Fade upin delay={400}>
-      <section id="brands" className={"block snap-center"}>
+      <section id="brands" className={"block_full-screen snap-center"}>
         <h2 className={"big-title"}>Our Brand Partners</h2>
         <p>
           At Trading Unlimited we're proud to be authorized distributors of some
