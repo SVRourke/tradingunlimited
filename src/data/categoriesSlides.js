@@ -10,28 +10,28 @@ export const slides = [
     tab: "Audio",
     title: "Speakers & Audio Equipment",
     blurb:
-      "est. Sed nisi felis, luctus quis molestie at, blandit ut velit. Aenean sit amet efficitur diam. Curabitur consequat justo in feugiat porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+      "If you're looking to improve you home theater or audio consumption experience our diverse selection of brand name premium audio equipment (everything from subwoofers to true wireless earbuds) will be like music to your ears.",
     img: "https://ik.imagekit.io/ultimatec/trading/audio_RrSeJFHA5.png",
   },
   {
     tab: "Photo",
     title: "Cameras, Lenses & Accessories",
     blurb:
-      "est. Sed nisi felis, luctus quis molestie at, blandit ut velit. Aenean sit amet efficitur diam. Curabitur consequat justo in feugiat porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+      "We stock a range of brand name Cameras, Lenses and Photography Accessories sure to suit the needs of anyone from pro photographers in the field to parents at the recital.",
     img: "https://ik.imagekit.io/ultimatec/trading/composed_photog_Uc6uQWnK-.png",
   },
   {
     tab: "Electronics",
     title: "Gaming, Cellphones & Tablets",
     blurb:
-      "est. Sed nisi felis, luctus quis molestie at, blandit ut velit. Aenean sit amet efficitur diam. Curabitur consequat justo in feugiat porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+      "Stay listening, watching or playing regardless of location with huge inventory of personal electronics. Including Cellphones, Tables, Personal Bluetooth Speakers and more.",
     img: "https://ik.imagekit.io/ultimatec/gadgets_comp_RGEleiQ56.png",
   },
   {
     tab: "Computers",
     title: "Computers, Laptops & I.T. Equipment",
     blurb:
-      "est. Sed nisi felis, luctus quis molestie at, blandit ut velit. Aenean sit amet efficitur diam. Curabitur consequat justo in feugiat porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+      "For business or entertainment, from iMacs to Uninterruptible Power supplies we've got the Computer and I.T. Equipment solutions you need.",
     img: "https://ik.imagekit.io/ultimatec/computers_QZVUs2HAN.png",
   },
 ];
