@@ -12,13 +12,16 @@
 html {
   height: 100%;
   overflow: hidden;
+  // scroll-behavior: smooth;
+  // scroll-snap-type: y mandatory;
 }
 
 body {
-  height: 100%;
-  overflow: auto;
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
+  height: 100vh;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 .row {
