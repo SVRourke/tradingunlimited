@@ -39,12 +39,7 @@ export default function ContactForm() {
   };
 
   return (
-    <form
-      id="contact-form-form"
-      name="contact-form"
-      method="post"
-      onSubmit={handleSubmit}
-    >
+    <form id="contact-form-form" name="contact-form" onSubmit={handleSubmit}>
       <input type="hidden" name="contact-form" value="contact" />
       <div className={"row"}>
         <div className={"form-column"}>
