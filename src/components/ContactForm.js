@@ -3,7 +3,7 @@ import "../styles/ContactForm.scss";
 
 export default function ContactForm() {
   return (
-    <form name="contact-form" method="post">
+    <form id="contact-form-form" name="contact-form" method="post">
       <input type="hidden" name="contact-form" value="contact" />
       <div className={"row"}>
         <div className={"form-column"}>
