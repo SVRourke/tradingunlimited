@@ -1,0 +1,120 @@
+@import "variables";
+
+header {
+  background-color: black;
+  justify-content: space-between;
+  padding: 3rem 5rem;
+  overflow: hidden;
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    nav {
+      width: fit-content;
+
+      a {
+        color: $white;
+        font-weight: 400;
+        font-size: 1.7rem;
+        text-decoration: none;
+
+        &:not(:last-of-type) {
+          margin-right: 3rem;
+        }
+
+        &:hover {
+          color: $light-blue;
+        }
+      }
+    }
+
+    img {
+      height: 5rem;
+    }
+  }
+
+  .header_content {
+    padding-left: 8rem;
+
+    display: flex;
+
+    img {
+      width: 40rem;
+    }
+
+    .column {
+      justify-content: center;
+      video {
+        max-width: 100%;
+      }
+    }
+
+    div {
+      width: fit-content;
+      padding-top: 2rem;
+      display: flex;
+
+      a.header-buttons {
+        text-decoration: none;
+        color: $white;
+        font-size: 1.5rem;
+        background: none;
+        border: solid $white 1px;
+        display: block;
+        width: 20rem;
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        transition: all 250ms ease-out;
+        text-align: center;
+
+        &:first-of-type {
+          margin-right: 1rem;
+        }
+
+        &:hover {
+          background-color: $white;
+          color: black;
+          transition: 200ms ease-in-out;
+        }
+      }
+    }
+  }
+
+  .header_phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    svg {
+      fill: $grey-text;
+    }
+
+    p {
+      color: $grey-text;
+      font-weight: 400;
+      font-size: 1.7rem;
+    }
+    a {
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 1rem;
+      border: solid $grey-text 2px;
+      &:hover {
+        color: black;
+        border-color: white;
+        background-color: white;
+        transition: all 250ms ease-in;
+
+        svg {
+          fill: black;
+        }
+        p {
+          color: black;
+        }
+      }
+    }
+  }
+}

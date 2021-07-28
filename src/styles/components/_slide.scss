@@ -1,0 +1,61 @@
+@import 'variables';
+
+@keyframes scroll {
+    0% { transform: translateX(0);}
+    100% { transform: translateX(calc(-250px * 6));}
+}
+
+@mixin white-gradient {
+    background: linear-gradient(to right, rgba(255,255,255, 1) 0%, rgba(255, 255, 255, 0) 90%);
+}
+
+
+#slider {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+
+    &::before,
+    &::after {
+        @include white-gradient;
+        content: "";
+        height: $slide-height;
+        position: absolute;
+        width: 200px;
+        z-index: 2;
+    }
+    &::after {
+        right: 0;
+        top:0;
+        transform: rotateZ(180deg);
+    }
+    &::before {
+        left:0;
+        top:0;
+    }
+
+    .slide {
+        animation: scroll $animationSpeed linear infinite;
+        height: $slide-height;
+        min-width: 250px;
+        margin: 0 2rem;
+        display: block;
+        text-align: center;
+
+        svg {
+            margin: 0 auto;
+            max-width: 80%;
+            height: $slide-height;
+    
+        }
+    }
+
+    
+    path {
+        fill: $medium-blue;
+    }
+}

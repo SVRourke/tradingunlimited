@@ -1,0 +1,36 @@
+@import "variables";
+
+#footer {
+  padding: 6rem $side-padding 10rem;
+  background-color: $off-black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  * {
+    font-size: 1.5rem;
+    color: white;
+  }
+
+
+  img {
+    width: 33%;
+  }
+
+  nav,
+  div.badges {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    svg {
+      fill: white;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    color: $light-blue;
+  }
+}
