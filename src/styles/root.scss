@@ -1,6 +1,22 @@
-@import "resets";
-@import "variables";
+@import "utils/variables";
+@import "utils/mixins";
+@import "utils/resets";
 
+@import "layout/about";
+@import "layout/brands";
+@import "layout/contact";
+@import "layout/footer";
+@import "layout/form";
+@import "layout/header";
+@import "layout/logistics";
+@import "layout/partnershipcta";
+@import "layout/productcategories";
+
+@import "components/";
+@import "components/";
+@import "components/";
+
+// @import "";
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700&display=swap");
 
 * {
