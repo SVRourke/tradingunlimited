@@ -9,6 +9,7 @@ import {
   RightImage,
   Contact,
   Footer,
+  CategoryCarousel,
 } from "./blocks";
 
 function App() {
@@ -17,16 +18,17 @@ function App() {
     return <RightImage data={s} left={facingLeft} />;
   });
 
-  useEffect(() => {
-    const header = document.querySelector("header");
-    header.focus();
-  }, []);
+  // useEffect(() => {
+  //   const header = document.querySelector("header");
+  //   header.focus();
+  // }, []);
 
   return (
     <>
-      <Header />
-      <About />
-      <Brands />
+      {/* <Header /> */}
+      {/* <About /> */}
+      {/* <Brands /> */}
+      <CategoryCarousel />
       {blocks}
       <Logistics />
       <PartnershipCta />
