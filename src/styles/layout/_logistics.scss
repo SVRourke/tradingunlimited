@@ -1,26 +1,26 @@
-@import 'variables';
+@import "../utils/variables";
 
 #logistics {
-    padding: 10rem $side-padding;
-    background-color: $light-gray;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+  padding: 10rem $side-padding;
+  background-color: $light-gray;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
 
-    .logistics-card {
-        * {
-            margin-bottom: 1rem;
-        }
-        .blue-tab {
-            font-size: 1rem;
-        }
-        h2 {
-            font-size: 2.3rem;
-        }
-        p {
-            &:last-of-type {
-                font-size: 1.52rem;
-            }
-        }
+  .logistics-card {
+    * {
+      margin-bottom: 1rem;
     }
+    .blue-tab {
+      font-size: 1rem;
+    }
+    h2 {
+      font-size: 2.3rem;
+    }
+    p {
+      &:last-of-type {
+        font-size: 1.52rem;
+      }
+    }
+  }
 }

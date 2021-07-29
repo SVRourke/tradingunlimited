@@ -1,0 +1,62 @@
+@import "../utils/variables";
+
+#categorycarousel {
+  height: 100vh;
+  padding: 0rem $side-padding;
+  scroll-snap-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .ccimgph {
+    width: 40%;
+    height: 20vh;
+    background-color: rgb(230, 230, 230);
+  }
+
+  .categorycarousel-texts {
+    width: 100%;
+    padding: 2rem 0;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+      text-align: right;
+      font-size: 4.75rem;
+      font-weight: 700;
+    }
+    #vertical-divider {
+      background-color: black;
+      height: 50%;
+      width: 0.5rem;
+      margin: 0 1rem;
+    }
+    p {
+      font-size: 1.5rem;
+      max-width: 40ch;
+    }
+  }
+
+  #progress-markers {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+
+    .progress-marker {
+      height: 1.3rem;
+      width: 1.3rem;
+      border-radius: 50%;
+      border: solid black 1px;
+      &:not(:last-of-type) {
+        margin-right: 1rem;
+      }
+    }
+    .active {
+      background-color: black;
+    }
+  }
+}
