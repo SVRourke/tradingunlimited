@@ -1,0 +1,35 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.mid-image-fat {
+  scroll-snap-align: start;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 1.5fr;
+
+  grid-template-areas:
+    "left main right"
+    "left main right"
+    "left main right"
+    "left center right";
+
+  .mid-left-image {
+    grid-area: left;
+    background-color: rgb(114, 233, 98);
+  }
+  .mid-right-image {
+    grid-area: right;
+    background-color: rgb(233, 213, 98);
+  }
+  .mid-center-image {
+    grid-area: center;
+    background-color: rgb(233, 98, 98);
+  }
+  .text-box {
+    @include text-box;
+
+    grid-area: main;
+    background-color: rgb(230, 230, 230);
+  }
+}
