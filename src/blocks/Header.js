@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../assets/top-logo.png";
 import Words from "../assets/trading-words.png";
-import "../styles/Header.scss";
+import "../styles/layout/_header.scss";
 import BadgeText from "../components/BadgeText";
 import Fade from "react-reveal/Fade";
 

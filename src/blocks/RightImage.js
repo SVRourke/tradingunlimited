@@ -1,7 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import "../styles/RightImage.scss";
-import "../styles/ProductCategories.scss";
+import "../styles/components/_rightimage.scss";
+import "../styles/layout/_productcategories.scss";
 
 const conditionalStyle = (props) => {
   return {

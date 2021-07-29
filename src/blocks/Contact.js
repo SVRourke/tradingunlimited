@@ -2,7 +2,7 @@ import React from "react";
 
 import BadgeText from "../components/BadgeText";
 import ContactForm from "../components/ContactForm";
-import "../styles/Contact.scss";
+import "../styles/layout/_contact.scss";
 
 import { ReactComponent as Separator } from "../assets/separator.svg";
 

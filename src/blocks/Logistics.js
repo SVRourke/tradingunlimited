@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/Logistics.scss";
 import { data } from "../data/logisticsData";
+import "../styles/layout/_logistics.scss";
 
 const LogisticsCard = ({ data: { tab, title, content } }) => {
   return (

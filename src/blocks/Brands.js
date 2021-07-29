@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Brands.scss";
+import "../styles/layout/_brands.scss";
 import Slider from "../components/Slider";
 import Fade from "react-reveal/Fade";
 

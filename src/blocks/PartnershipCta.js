@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/PartnershipCta.scss";
 import { ReactComponent as Separator } from "../assets/separator.svg";
+import "../styles/layout/_partnershipcta.scss";
 
 export default function PartnershipCta() {
   return (

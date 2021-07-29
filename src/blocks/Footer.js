@@ -1,7 +1,7 @@
 import React from "react";
 import topLogo from "../assets/top-logo.png";
-import "../styles/Footer.scss";
 import BadgeText from "../components/BadgeText";
+import "../styles/layout/_footer.scss";
 
 export default function Footer() {
   return (

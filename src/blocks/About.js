@@ -1,6 +1,6 @@
 import React from "react";
+import "../styles/layout/_about.scss";
 
-import "../styles/About.scss";
 import location from "../assets/location.jpg";
 import BadgeText from "../components/BadgeText";
 import Fade from "react-reveal/Fade";

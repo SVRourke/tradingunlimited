@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/slide.scss";
+import "../styles/components/_slide.scss";
 
 import { ReactComponent as Apple } from "../assets/brands/apple.svg";
 import { ReactComponent as Garmin } from "../assets/brands/garmin.svg";
