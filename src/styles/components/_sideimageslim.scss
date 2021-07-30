@@ -1,0 +1,38 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+.side-image-slim {
+  scroll-snap-align: center;
+  @include common-styles;
+  // height: 50vh;
+
+  display: grid;
+  grid-template-rows: repeat(3, 1fr) 1.5fr;
+
+  .text-box {
+    @include text-box;
+    grid-area: b;
+  }
+
+  .side-image {
+    @include image-pos;
+    grid-area: a;
+  }
+}
+
+.right-facing {
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas:
+    "a b"
+    "a b"
+    "a b"
+    "a c";
+}
+
+.left-facing {
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    "b a"
+    "b a"
+    "b a"
+    "c a";
+}
