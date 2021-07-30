@@ -5,8 +5,8 @@ import Logistics from "./Logistics";
 import PartnershipCta from "./PartnershipCta";
 import Contact from "./Contact";
 import Footer from "./Footer";
-import RightImage from "./RightImage";
-import CategoryCarousel from "./CategoryCarousel";
+import SideImageSlim from "./SideImageSlim";
+import MidImageFat from "../components/MidImageFat";
 export {
   Header,
   About,
@@ -15,6 +15,6 @@ export {
   PartnershipCta,
   Contact,
   Footer,
-  RightImage,
-  CategoryCarousel,
+  SideImageSlim,
+  MidImageFat,
 };
