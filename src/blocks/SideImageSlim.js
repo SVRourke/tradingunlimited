@@ -4,19 +4,11 @@ export default function SideImageSlim({
   right,
   data: { title, description, img },
 }) {
-  const extraStyle = !right ? null : { gridTemplateColumns: "2fr 1fr" };
-
-  const leftPos = {
-    gridArea: "left",
-  };
-
-  const rightPos = {
-    gridArea: "right",
-  };
+  const computedClassName = right ? "right-facing" : "left-facing";
 
   return (
-    <section className="side-image-slim" style={extraStyle}>
-      <div className="text-box" style={right ? rightPos : leftPos}>
+    <section className={`side-image-slim ${computedClassName}`}>
+      <div className="text-box">
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
@@ -24,7 +16,6 @@ export default function SideImageSlim({
         className="side-image"
         style={{
           backgroundImage: `url(${img})`,
-          gridArea: right ? "left" : "right",
         }}
       ></div>
     </section>
