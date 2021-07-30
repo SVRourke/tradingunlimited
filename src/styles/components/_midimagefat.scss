@@ -2,8 +2,9 @@
 @import "../utils/mixins";
 
 .mid-image-fat {
-  scroll-snap-align: start;
-  height: 70vh;
+  @include common-styles;
+  scroll-snap-align: center;
+  // height: 70vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 1fr 1fr 1.5fr;
