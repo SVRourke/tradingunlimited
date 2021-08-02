@@ -1,0 +1,58 @@
+@import "../utils/mixins";
+@import "../utils/variables";
+
+#partner {
+  scroll-snap-align: start;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+  .video-overlay {
+    width: 33%;
+    padding: 6rem 4rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 5;
+    background-color: rgba(21, 53, 128, 0.5);
+
+    h2 {
+      font-size: 4rem;
+      margin-bottom: 3rem;
+    }
+    p {
+      line-height: 1.25;
+      max-width: 45ch;
+      font-size: 1.75rem;
+      font-weight: 300;
+    }
+    .row {
+      padding-top: 1rem;
+      a {
+        border-radius: 0.3rem;
+        text-decoration: none;
+        font-size: 1.25rem;
+        border: solid white 2px;
+        padding: 1rem 1.5rem;
+        font-weight: 600;
+
+        &:hover {
+          background-color: white;
+          color: black;
+        }
+
+        &:first-of-type {
+          margin-right: 1.5rem;
+        }
+      }
+    }
+
+    * {
+      color: white;
+    }
+  }
+}
