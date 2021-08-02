@@ -11,17 +11,18 @@ import {
   Footer,
   SideImageSlim,
   MidImageFat,
+  Partner,
 } from "./blocks";
 
 function App() {
-  useEffect(() => {
-    const header = document.querySelector("header");
-    header.focus();
-  }, []);
+  // useEffect(() => {
+  //   const header = document.querySelector("header");
+  //   header.focus();
+  // }, []);
 
   return (
     <>
-      <Header />
+      {/* <Header />
       <About />
       <Brands />
       <SideImageSlim data={categories["tv"]} right={false} />
@@ -29,7 +30,8 @@ function App() {
       <SideImageSlim data={categories["audio"]} right={true} />
       <MidImageFat data={categories["gadgets"]} />
       <SideImageSlim data={categories["office"]} right={false} />
-      <Logistics />
+      <Logistics /> */}
+      <Partner />
       <PartnershipCta />
       <Contact />
       <Footer />
