@@ -25,10 +25,10 @@ function App() {
 
   return (
     <>
-      {/* <Header /> */}
-      {/* <About /> */}
-      {/* <Brands /> */}
-      <CategoryCarousel />
+      <Header />
+      <About />
+      <Brands />
+      {/* <CategoryCarousel /> */}
       {blocks}
       <Logistics />
       <PartnershipCta />
