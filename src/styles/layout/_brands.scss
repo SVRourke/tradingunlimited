@@ -1,5 +1,6 @@
 @import "../utils/variables";
 #brands {
+  scroll-snap-align: start;
   background-color: rgb(246, 246, 246);
   align-items: center;
   justify-content: center;
