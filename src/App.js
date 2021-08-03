@@ -22,13 +22,13 @@ function App() {
   return (
     <>
       <Header />
-      <Brands />
       <About />
-      <SideImageSlim data={categories["tv"]} right={false} />
+      {/* <Brands /> */}
+      <SideImageSlim id="firstSlide" data={categories["tv"]} right={false} />
       <MidImageFat data={categories["photography"]} />
       <SideImageSlim data={categories["audio"]} right={true} />
       <MidImageFat data={categories["gadgets"]} />
-      <SideImageSlim data={categories["office"]} right={false} />
+      <SideImageSlim id="lastSlide" data={categories["office"]} right={false} />
       <Logistics />
       {/* <Partner /> */}
       <PartnershipCta />
