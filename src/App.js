@@ -15,22 +15,22 @@ import {
 } from "./blocks";
 
 function App() {
-  // useEffect(() => {
-  //   const header = document.querySelector("header");
-  //   header.focus();
-  // }, []);
+  useEffect(() => {
+    const header = document.querySelector("header");
+    header.focus();
+  }, []);
 
   return (
     <>
-      {/* <Header />
-      <About />
+      <Header />
       <Brands />
+      <About />
       <SideImageSlim data={categories["tv"]} right={false} />
       <MidImageFat data={categories["photography"]} />
       <SideImageSlim data={categories["audio"]} right={true} />
       <MidImageFat data={categories["gadgets"]} />
       <SideImageSlim data={categories["office"]} right={false} />
-      <Logistics /> */}
+      <Logistics />
       <Partner />
       <PartnershipCta />
       <Contact />
