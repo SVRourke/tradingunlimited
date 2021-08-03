@@ -18,17 +18,16 @@ function App() {
     return <RightImage data={s} left={facingLeft} />;
   });
 
-  // useEffect(() => {
-  //   const header = document.querySelector("header");
-  //   header.focus();
-  // }, []);
+  useEffect(() => {
+    const header = document.querySelector("header");
+    header.focus();
+  }, []);
 
   return (
     <>
-      {/* <Header /> */}
-      {/* <About /> */}
-      {/* <Brands /> */}
-      <CategoryCarousel />
+      <Header />
+      <About />
+      <Brands />
       {blocks}
       <Logistics />
       <PartnershipCta />
