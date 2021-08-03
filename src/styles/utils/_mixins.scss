@@ -1,0 +1,27 @@
+@import "./variables";
+
+@mixin text-box {
+  padding: 3rem;
+  background-color: rgb(230, 230, 230);
+
+  h3 {
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  p {
+    font-weight: 500;
+    font-size: 1.32rem;
+    max-width: 50ch;
+  }
+}
+@mixin image-pos {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@mixin common-styles {
+  height: 60vh;
+  background-color: #002234;
+}
