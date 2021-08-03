@@ -30,7 +30,7 @@ function App() {
       <MidImageFat data={categories["gadgets"]} />
       <SideImageSlim data={categories["office"]} right={false} />
       <Logistics />
-      <Partner />
+      {/* <Partner /> */}
       <PartnershipCta />
       <Contact />
       <Footer />
