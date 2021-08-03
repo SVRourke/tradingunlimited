@@ -4,7 +4,7 @@ import "../styles/components/_partner.scss";
 export default function Partner() {
   return (
     <section id="partner">
-      <video
+      {/* <video
         muted
         autoPlay
         loop
@@ -15,7 +15,7 @@ export default function Partner() {
           src="https://ik.imagekit.io/ultimatec/blurrytruck_AQyHmlFh5of.mp4"
           type="video/mp4"
         />
-      </video>
+      </video> */}
       <div className="video-overlay">
         <h2>Partner with us.</h2>
         <p>
