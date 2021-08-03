@@ -1,5 +1,13 @@
 @import "../utils/variables";
 @import "../utils/mixins";
+
+#firstSlide {
+  scroll-snap-align: start;
+}
+#lastSlide {
+  scroll-snap-align: end;
+}
+
 .side-image-slim {
   scroll-snap-align: center;
   @include common-styles;
@@ -16,6 +24,10 @@
   .side-image {
     @include image-pos;
     grid-area: a;
+  }
+  .small-image {
+    @include image-pos;
+    grid-area: c;
   }
 }
 
