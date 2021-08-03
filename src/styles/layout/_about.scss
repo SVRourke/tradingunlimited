@@ -18,8 +18,10 @@
 
   .column {
     p {
+      line-height: 1.25;
       font-size: 1.5rem;
-      max-width: 49ch;
+      font-weight: 300;
+      max-width: 54ch;
     }
 
     .building-image-backdrop {
