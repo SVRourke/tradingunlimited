@@ -3,20 +3,25 @@
 
 #partner {
   scroll-snap-align: start;
-  height: 100vh;
+  height: 80vh;
+  padding: 2rem $side-padding;
+  // overflow: hidden;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 
   video {
-    width: 100%;
-    height: auto;
+    // margin-left: auto;
+    height: 60vh;
+    height: fit-content;
   }
   .video-overlay {
-    width: 33%;
+    width: 55%;
+    margin-left: -10rem;
     padding: 6rem 4rem;
-    position: absolute;
-    top: 0;
-    bottom: 0;
+    // position: relative;
+    // left: -50%;
     z-index: 5;
     background-color: rgba(21, 53, 128, 0.5);
 
